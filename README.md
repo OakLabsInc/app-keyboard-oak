@@ -1,4 +1,4 @@
-# app-example
+# app-keyboard-oak
 
 An example app that is descibed in more detail at <https://docs.zivelo.com/docs/writing-a-simple-application>
 
