@@ -1,6 +1,6 @@
 # app-keyboard-oak
 
-An example app that is descibed in more detail at <https://docs.zivelo.com/docs/writing-a-simple-application>
+An example app that demonstrates how keypress events can be captured usin the oak npm module
 
 ## Running locally
 
@@ -37,7 +37,7 @@ docker-compose down
 {
   "services": [
     {
-      "image": "index.docker.io/oaklabs/app-example:release-1.0.2",
+      "image": "index.docker.io/oaklabs/app-keyboard-oak:latest",
       "environment": {
         "TZ": "America/Phoenix"
       }
