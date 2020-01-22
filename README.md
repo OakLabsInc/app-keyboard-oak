@@ -37,7 +37,7 @@ docker-compose down
 {
   "services": [
     {
-      "image": "index.docker.io/oaklabs/app-keyboard-oak:1.0.0",
+      "image": "index.docker.io/oaklabs/app-keyboard-oak:release-1.0.0",
       "environment": {
         "TZ": "America/Phoenix"
       }
