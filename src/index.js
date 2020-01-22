@@ -8,7 +8,7 @@ oak.on('ready', () => {
     background: '#000000',
     size: '1x1'
   }).on('keypressed', function(obj){
-    console.log("You pressed a '", obj.message ,"' key")
+    console.log("You pressed the '", obj.message ,"' key")
   })
 })
 
