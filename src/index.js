@@ -9,6 +9,7 @@ oak.on('ready', () => {
     size: '1x1'
   }).on('keypressed', function(obj){
     console.log("You pressed the '", obj.message ,"' key")
+    // here is where you can do whatever is needed with the captured key
   })
 })
 
